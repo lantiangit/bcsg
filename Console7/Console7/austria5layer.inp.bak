@@ -1,0 +1,28 @@
+nlayer,nobjD, number of layers, the layer for the test domain, measurement layer
+2, 2, 2
+(cer,sig,interloc): permittivity, conductivity and location) for each layer
+(1.0, 0.0), 0.0, 750
+(1.0, 0.0), 0.04
+pec_nlayer: logic value,true for a PEC boundary
+.false.
+pec_1layer: logic value,true for a PEC boundary
+.false.
+operating frequency
+250
+istempmax: the maximum number of iteration
+300, 1e-3
+geometry: geometry of scatterer
+Austria
+(xa,  xc): dimension of the test domain
+1500.0,  1000.0
+The no. of layers for this circular structure 
+2
+Its radius and electrical parameters
+200, (1.0,0.0), 0.005
+200, (1.0,0.0), 0.005
+xxc, xzc the center of the test domain in (x,z)
+0.0, 0.0
+tolerance(how accurate is integration),tolerance2(how long along the krho axis):
+1e-3,1e-4
+Integration segment
+8

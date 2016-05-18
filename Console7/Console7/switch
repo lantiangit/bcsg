@@ -1,0 +1,10 @@
+controlling file, in which you can specify the names of the relevant input/output files:
+Model.inp               :model_str a parameter file define forward and inverse model. 
+escat.dat                       :scat_str the scattered data of z component observed in domain S.
+einc.dat                        :inc_str incident field in object domain D
+greenk.dat                      :greenk_str green functions in k-space in object domain D
+greenkb.dat                     :greenkb_str green functions 
+Tloc.inp               					:trans_str transmitter coordinates
+Rloc.inp               					:receiv_str receiver czoordinates
+0                              :nfield  0=only E field,1=both E and H field,2=only H field
+100                      :itmax iteration number
